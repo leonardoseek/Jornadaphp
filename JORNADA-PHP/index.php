@@ -15,7 +15,7 @@
         <div class="conteudo">
             <nav class="modulos">
                 <div class="modulo verde">
-                    <h3>Módulo 01</h3>
+                    <h3>Básico</h3>
                     <ul>
                         <li>
                             <a href="exercicio.php?dir=basico&file=ola">Ola PHP</a>
@@ -31,8 +31,22 @@
                         </li>
                     </ul>
                 </div>
+                <div class="modulo vermelho">
+                    <h3> Tipos</h3>
+                    <ul>
+                        <li>
+                            <a href="exercicio.php?dir=tipos&file=int">Tipo Inteiro</a>
+                        </li>
+                    </ul>
+                </div>
             </nav>
         </div>
+    </main>
+    <footer class="rodape">
+        COD3R & ALUNOS © <?= date('Y'); ?>
+    </footer>
+</body>
+</html>
     </main>
     <footer class="rodape">
         COD3R & ALUNOS © <?= date('Y'); ?>
