@@ -1,4 +1,5 @@
 <!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -37,16 +38,14 @@
                         <li>
                             <a href="exercicio.php?dir=tipos&file=int">Tipo Inteiro</a>
                         </li>
+                        <li>
+                            <a href="exercicio.php?dir=tipos&file=string">Tipo String</a>
+                        </li>
+
                     </ul>
                 </div>
             </nav>
         </div>
-    </main>
-    <footer class="rodape">
-        COD3R & ALUNOS © <?= date('Y'); ?>
-    </footer>
-</body>
-</html>
     </main>
     <footer class="rodape">
         COD3R & ALUNOS © <?= date('Y'); ?>
